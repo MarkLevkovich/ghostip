@@ -24,8 +24,8 @@ def get_info_by_ip(ip='127.0.0.1'):
                 result += f"<b>{k}:</b> {v}\n"
 
 
-        if data['lat'] and data['lon']:
-            result += f"\n🌍 https://www.google.com/maps?q={data['lat']},{data['lon']}"
+        if data['[Lat]'] and data['[Lon]']:
+            result += f"\n🌍 https://www.google.com/maps?q={data['[Lat]']},{data['[Lon]']}"
 
         return result
 
