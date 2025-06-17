@@ -1,8 +1,7 @@
 from telebot import TeleBot
 from telebot.types import Message
 from ipcode import get_info_by_ip
-
-TOKEN = '8112149382:AAEVQMyPkkgHEom9196SwRAd1BdR9wzxVgg'
+from tt import TOKEN
 
 bot = TeleBot(TOKEN)
 
