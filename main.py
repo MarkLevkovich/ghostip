@@ -15,7 +15,7 @@ def hello(message:Message):
 def handle_ip_command(message):
     args = message.text.split()
     if len(args) < 2:
-        bot.reply_to(message, "ℹ️ Использование: <code>/ip 8.8.8.8</code>", parse_mode='HTML')
+        bot.reply_to(message, "ℹ️ Using: <code>/ip 8.8.8.8</code>", parse_mode='HTML')
         return
 
     ip = args[1]
